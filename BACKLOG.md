@@ -18,10 +18,23 @@
 * Sistema de Notificações Internas: Avisar o usuário quando uma nova "Sala de Exposição" for aberta
 * Linha do tempo interativa
 * Lógica para ligar obras que se inspiraram mutuamente
-* 
-Galeria de documentos
+* Galeria de documentos
 * Sistema de seleção de favoritos
 * Buscar biografias automáticas de compositores
+# Urgente
+* Mapeamento de Fluxo do Usuário
+* Configurações para o servidor
+* Desenvolver o layout principal de exibição
+* Metadados Técnicos(Campos para instrumentos e detalhes de gravação)
+* Implementar busca por artista, obra ou época
+* Criar página de biografia e obras relacionadas
+* Criação do banco de dados
+* Validação de Formulários
+* API de exposições
+* Definição do Público-Alvo
+* Sistemas de armazenamento
+* Design Responsivo Base
+
 
 
 
