@@ -1,35 +1,34 @@
 ## Mapeamento de Fluxo do Usuário
-Desenhar o diagrama de navegação (User Flow) para identificar os caminhos da entrada até a visualização final. Use ferramentas como Figma ou FigJam para garantir que o usuário nunca fique "preso" em uma página sem saída.
-
+Desenhar o diagrama de navegação  para identificar os caminhos da entrada até a visualização final. 
 ## Configurações para o Servidor
-Configurar o ambiente (Node.js/Python) em um serviço como Vercel ou Render. Estabelecer as variáveis de ambiente (.env) para chaves de API e strings de conexão com o banco de dados, garantindo a segurança do deploy.
+Configurar o ambiente . Estabelecer as variáveis de ambiente para chaves de API e strings de conexão com o banco de dados, garantindo a segurança do deploy.
 
 ## Desenvolver o Layout Principal de Exibição
-Criar a estrutura HTML/CSS (ou componentes React) que servirá de "palco" para as obras. Foque em uma área central para a mídia e colunas laterais para informações rápidas, mantendo a hierarquia visual limpa.
+Criar a estrutura HTML/CSS  que servirá de "palco" para as obras. Focar em uma área central para a mídia e colunas laterais para informações rápidas, mantendo a hierarquia visual limpa.
 
 ## Metadados Técnicos (Instrumentos e Detalhes)
-Criar colunas específicas no banco de dados para armazenar atributos como "instrumentos usados" e "tipo de gravação". No front-end, renderize essas informações em uma seção de "Ficha Técnica" para enriquecer a obra.
+Criar colunas específicas no banco de dados para armazenar atributos como "instrumentos usados" e "tipo de gravação". No front-end, renderizar essas informações em uma seção de "Ficha Técnica" para complementar a obra.
 
 ## Implementar Busca por Artista, Obra ou Época
-Criar uma rota de busca no back-end que utilize filtros LIKE ou busca textual no banco de dados. No front, use um campo de input com evento onChange para filtrar os cards de obras em tempo real.
+Criar uma rota de busca no back-end que utilize filtros LIKE ou busca textual no banco de dados. No front, usar um campo de input com evento onChange para filtrar os cards de obras em tempo real.
 
 ## Criar Página de Biografia e Obras Relacionadas
-Desenvolver um template dinâmico que receba o ID do artista e carregue seus dados biográficos. Abaixo do texto, execute uma consulta ao banco para listar todas as obras que possuam a chave estrangeira daquele artista.
+Desenvolver um template dinâmico que receba o ID do artista e carregue seus dados biográficos. Abaixo do texto, executar uma consulta ao banco para listar todas as obras que possuam a chave estrangeira daquele artista.
 
 ## Criação do Banco de Dados
-Modelar as tabelas principais (Artistas, Obras, Exposições) garantindo os relacionamentos de um-para-muitos. Use um banco como PostgreSQL para dados relacionais ou MongoDB para metadados mais flexíveis e rápidos.
+Modelar as tabelas principais (Artistas, Obras, Exposições) garantindo os relacionamentos de um-para-muitos. Usar um banco para dados relacionais e um para metadados mais flexíveis e rápidos.
 
 ## Validação de Formulários
-Implementar validações no lado do cliente (JavaScript) e do servidor para garantir que nenhum campo fique vazio ou com formato errado. Use bibliotecas como Zod ou yup para simplificar a lógica de erro.
+Implementar validações no lado do cliente e do servidor para garantir que nenhum campo fique vazio ou com formato errado. Usar bibliotecas para simplificar a lógica de erro.
 
 ## API de Exposições
-Desenvolver os endpoints REST (ex: /api/exposicoes) que retornem os dados das obras em formato JSON. Garanta que a API consiga filtrar os resultados por categoria ou "sala" para alimentar o front-end.
+Desenvolver os endpoints REST que retornem os dados das obras em formato JSON. Garanta que a API consiga filtrar os resultados por categoria ou "sala" para alimentar o front-end.
 
 ##  Definição do Público-Alvo
-Documentar as personas (estudantes, músicos, curiosos) para adaptar o tom de voz e a complexidade visual. Essa definição ditará se a interface deve ser mais técnica/minimalista ou educativa/interativa.
+Documentar as personas (estudantes, músicos, curiosos) para adaptar a complexidade visual. Essa definição ditará se a interface deve ser mais técnica/minimalista ou educativa/interativa.
 
 ## Sistemas de Armazenamento
-Configurar o armazenamento de arquivos binários (áudios e imagens) em serviços como Cloudinary ou AWS S3. No banco de dados, salve apenas a URL desses arquivos para manter a performance das consultas.
+Configurar o armazenamento de arquivos binários (áudios e imagens) em serviços. No banco de dados, salve apenas a URL desses arquivos para manter a performance das consultas.
 
 ## Design Responsivo Base
 Utilizar CSS Grid e Flexbox para garantir que a estrutura do museu se adapte de celulares a monitores ultra-wide. Teste o layout em diferentes resoluções desde o início do desenvolvimento (Mobile First).
