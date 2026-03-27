@@ -40,13 +40,13 @@ Projetar botões com estados claros (hover, active, disabled) e ícones intuitiv
 Criar um componente reutilizável que encapsule a imagem da obra e seus dados básicos. Adicione efeitos de transição ao passar o mouse para indicar que o elemento é clicável e interativo.
 
 ## Ajuste de Listas para Responsividade
-Configurar o container das obras para usar grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)). Isso fará com que os itens se reorganizem sozinhos conforme a largura da tela diminuir ou aumentar.
+Configurar o container das obras. Isso fará com que os itens se reorganizem sozinhos conforme a largura da tela diminuir ou aumentar.
 
 ## Barra de Navegação Fixa (Períodos Históricos)
-Implementar um menu lateral ou horizontal com position: sticky. Vincule cada item (Barroco, Clássico, etc.) a âncoras ou rotas que filtrem o acervo instantaneamente por período cronológico.
+Implementar um menu lateral ou horizontal. Vincular cada item (Barroco, Clássico, etc.) a âncoras ou rotas que filtrem o acervo instantaneamente por período cronológico.
 
 ## Efeitos de Navegação entre Salas
-Utilizar bibliotecas como Framer Motion ou transições de CSS puro para suavizar a troca de páginas. Um leve efeito de "fade-in" ajuda a reduzir a quebra visual de carregamento e aumenta a imersão.
+Utilizar bibliotecas para suavizar a troca de páginas.
 
 ## Sistema de Notificações Internas
 Criar uma lógica que compare a última data de acesso do usuário com a data de criação de novas salas. Se houver novidades, exiba um indicador visual (badge) no menu de exposições.
@@ -76,7 +76,7 @@ Utilizar a tag <audio> do HTML com controles customizados em CSS para combinar c
 Implementar uma biblioteca de zoom (como PhotoSwipe) para permitir que o usuário veja detalhes das notas em alta resolução. Isso é essencial para tornar o museu útil para estudantes de música.
 
 ## Dark/Light Mode
-Definir variáveis de cores (CSS Variables) para o fundo e textos. Use uma pequena lógica em JavaScript para alternar uma classe no body que mude as cores conforme a escolha do visitante.
+Definir variáveis de cores para o fundo e textos. Usar uma pequena lógica em JavaScript para alternar uma classe no body que mude as cores conforme a escolha do visitante.
 
 ## Notificações sobre Efemérides Musicais
 Criar um script que verifique a data atual e compare com datas históricas no banco. Se houver um "aniversário de obra" hoje, exiba um banner de destaque na página inicial do museu.
